@@ -11,7 +11,7 @@ import {
   ChevronRight
 } from 'lucide-react';
 import { useAuth } from '../../context/AuthContext';
-import logo from '../../assets/logo.png';
+import { DoctorLogoSymbol } from '../common/DoctorLogo';
 import { useState } from 'react';
 
 const Sidebar = () => {
@@ -34,20 +34,21 @@ const Sidebar = () => {
       <div className="p-6 flex items-center justify-between">
         {!isCollapsed && (
           <div className="flex items-center gap-3 overflow-hidden whitespace-nowrap">
-            <div className="bg-primary-50 p-1.5 rounded-xl shrink-0">
-              <img src={logo} alt="Logo" className="w-8 h-8 object-contain" />
+            <div className="bg-rose-50 p-1.5 rounded-xl shrink-0">
+              <DoctorLogoSymbol className="h-8 w-auto" />
             </div>
             <div className="flex flex-col">
-              <span className="font-bold text-slate-800 leading-tight">Admin Portal</span>
-              <span className="text-[10px] text-primary-600 font-bold tracking-widest uppercase">Dr. Nihad</span>
+              <span className="font-bold text-slate-800 leading-tight">Portail Cabinet</span>
+              <span className="text-[10px] text-primary-700 font-bold tracking-widest uppercase">Dr. Bentaleb</span>
             </div>
           </div>
         )}
         {isCollapsed && (
-          <div className="bg-primary-50 p-1.5 rounded-xl mx-auto">
-            <img src={logo} alt="Logo" className="w-8 h-8 object-contain" />
+          <div className="bg-rose-50 p-1.5 rounded-xl mx-auto">
+            <DoctorLogoSymbol className="h-8 w-auto" />
           </div>
         )}
+
       </div>
 
       {/* Toggle Button */}

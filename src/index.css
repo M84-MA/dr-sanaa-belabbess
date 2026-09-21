@@ -3,21 +3,30 @@
 @theme {
   --font-sans: "Outfit", "Inter", system-ui, sans-serif;
 
-  --color-medical-50: #f0fdf4;
-  --color-medical-100: #dcfce7;
-  --color-medical-500: #22c55e;
-  --color-medical-600: #16a34a;
+  --color-medical-50: #fff1f2;
+  --color-medical-100: #ffe4e6;
+  --color-medical-500: #e11d48;
+  --color-medical-600: #be123c;
 
-  --color-primary-50: #f0f9ff;
-  --color-primary-100: #e0f2fe;
-  --color-primary-400: #38bdf8;
-  --color-primary-500: #0ea5e9;
-  --color-primary-600: #0284c7;
-  --color-primary-700: #0369a1;
-  --color-primary-900: #0c4a6e;
+  --color-primary-50: #fff5f7;
+  --color-primary-100: #fde8ed;
+  --color-primary-200: #fbcdd7;
+  --color-primary-400: #ea587f;
+  --color-primary-500: #8b2246;
+  --color-primary-600: #701a35;
+  --color-primary-700: #591128;
+  --color-primary-800: #450c1e;
+  --color-primary-900: #330814;
 
-  --shadow-soft: 0 4px 20px rgba(0, 0, 0, 0.05);
-  --shadow-hover: 0 10px 40px rgba(2, 132, 199, 0.1);
+  --color-gold-50: #fffdf5;
+  --color-gold-100: #fef9e7;
+  --color-gold-400: #f3cf65;
+  --color-gold-500: #d4af37;
+  --color-gold-600: #b89327;
+  --color-gold-700: #937218;
+
+  --shadow-soft: 0 4px 20px rgba(112, 26, 53, 0.06);
+  --shadow-hover: 0 12px 40px rgba(112, 26, 53, 0.12);
 }
 
 @layer base {
@@ -30,7 +39,7 @@
   }
 
   body {
-    @apply bg-slate-50 text-slate-800 antialiased font-sans flex flex-col min-h-screen selection:bg-primary-100 selection:text-primary-900;
+    @apply bg-stone-50/50 text-slate-800 antialiased font-sans flex flex-col min-h-screen selection:bg-primary-100 selection:text-primary-900;
   }
 
   /* Custom Scrollbar */
@@ -41,18 +50,19 @@
     background: transparent;
   }
   ::-webkit-scrollbar-thumb {
-    @apply bg-slate-300 rounded-full hover:bg-slate-400 transition-colors;
+    @apply bg-rose-200 rounded-full hover:bg-rose-300 transition-colors;
   }
 }
 
 @layer utilities {
   .glass {
-    @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-soft;
+    @apply bg-white/80 backdrop-blur-md border border-rose-100/60 shadow-soft;
   }
   .glass-dark {
-    @apply bg-slate-900/80 backdrop-blur-xl border border-slate-700/50 shadow-xl;
+    @apply bg-slate-900/90 backdrop-blur-xl border border-slate-800 shadow-xl;
   }
   .text-gradient {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-700 to-primary-500;
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-700 via-primary-600 to-amber-700;
   }
 }
+

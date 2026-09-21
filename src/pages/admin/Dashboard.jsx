@@ -54,9 +54,10 @@ const Dashboard = () => {
   return (
     <div className="space-y-10">
       <div>
-        <h1 className="text-3xl font-bold text-slate-800">Bonjour, Dr. El Halouat</h1>
+        <h1 className="text-3xl font-bold text-slate-800">Bonjour, Dr. BENTALEB Samia</h1>
         <p className="text-slate-500 mt-1">Voici le résumé de votre activité pour aujourd'hui.</p>
       </div>
+
 
       {/* Stats Cards */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
