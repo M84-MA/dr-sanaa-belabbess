@@ -1,30 +1,26 @@
 export const formatWhatsAppTextMessage = (booking) => {
   const name = booking?.fullName || 'Patient';
   const phone = booking?.phone || 'Non renseigné';
-  const service = booking?.serviceType || 'Consultation Médicale';
+  const service = booking?.serviceType || 'Consultation Cardiologie';
   const date = booking?.appointmentDate || 'A convenir';
   const time = booking?.appointmentTime || 'A convenir';
-  const note = booking?.message ? `\n*Note / Symptômes:* ${booking.message}` : '';
+  const note = booking?.message ? `\n*Précisions:* ${booking.message}` : '';
 
-  return `*DEMANDE DE RENDEZ-VOUS MEDICAL*
+  return `*DEMANDE DE RENDEZ-VOUS CARDIO*
 -----------------------------------
-*Cabinet Dr. BENTALEB Samia*
-Endocrinologie, Diabétologie & Nutrition
-Imperial Center, Meknès
+*Dr. Aziza L'Aarje - Cardiologue*
+Casablanca, Maroc
 
-*Patient(e):* ${name}
+*Nom du Patient:* ${name}
 *Téléphone:* ${phone}
-*Motif:* ${service}
-*Date:* ${date}
-*Heure:* ${time}${note}
+*Motif de Consultation:* ${service}
+*Date souhaitée:* ${date}
+*Heure souhaitée:* ${time}${note}
 
 -----------------------------------
-Merci de bien vouloir me confirmer la disponibilité du créneau.`;
+Demande transmise pour confirmation par téléphone (+212 522 50 33 15 / +212 612 15 40 32).`;
 };
 
 export const sendWhatsAppTextMessage = (booking) => {
-  const textMessage = formatWhatsAppTextMessage(booking);
-  const waNumber = "212663559580";
-  const waUrl = `https://wa.me/${waNumber}?text=${encodeURIComponent(textMessage)}`;
-  window.open(waUrl, '_blank', 'noopener,noreferrer');
+  console.log('Demande de rendez-vous enregistrée:', booking);
 };

@@ -1,25 +1,21 @@
-export const DoctorLogoSymbol = ({ className = "h-12 w-auto", alt = "Dr. Samia BENTALEB Logo" }) => (
-  <img
-    src="/images/logo.png"
-    alt={alt}
+import React from 'react';
+
+export const DoctorLogoSymbol = ({ className = "h-9 w-auto", isDark = false }) => (
+  <img 
+    src="/logo.png" 
+    alt="Logo Dr Aziza L'Aarje" 
     className={`object-contain ${className}`}
   />
 );
 
-const DoctorLogo = ({ showText = true, isDark = false, className = "" }) => {
+const DoctorLogo = ({ className = "", imgClassName = "h-10 md:h-12 w-auto" }) => {
   return (
-    <div className={`flex items-center gap-3 ${className}`}>
-      <DoctorLogoSymbol className="h-12 w-auto shrink-0" />
-      {showText && (
-        <div className="flex flex-col">
-          <span className={`font-heading font-bold text-lg leading-tight ${isDark ? 'text-white' : 'text-slate-900'}`}>
-            Dr. Samia BENTALEB
-          </span>
-          <span className="text-xs font-semibold text-primary-600 tracking-wide">
-            Endocrinologie & Diabétologie
-          </span>
-        </div>
-      )}
+    <div className={`flex items-center ${className}`}>
+      <img 
+        src="/logo.png" 
+        alt="Dr. Aziza L'Aarje - Cardiologue" 
+        className={`object-contain shrink-0 ${imgClassName}`} 
+      />
     </div>
   );
 };

@@ -1,104 +1,110 @@
 import { Link } from 'react-router-dom';
-import { MapPin, Phone, Mail, ChevronRight, Award } from 'lucide-react';
+import { MapPin, Phone, ChevronRight, Info } from 'lucide-react';
 import DoctorLogo from '../common/DoctorLogo';
+import { useLanguage } from '../../context/LanguageContext';
 
 const Footer = () => {
+  const { lang, setLang, t } = useLanguage();
+
   return (
-    <footer className="bg-slate-950 border-t border-slate-900 text-slate-300 pt-16 pb-8">
-      <div className="container mx-auto px-4 max-w-7xl">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+    <footer className="bg-[#FAF9F6] border-t border-[#E6E3DF] text-[#17202A] pt-16 pb-12 font-sans">
+      <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
           
-          {/* Brand */}
+          {/* Brand Column */}
           <div className="space-y-4">
             <Link to="/" className="inline-block">
-              <DoctorLogo isDark={true} />
+              <DoctorLogo />
             </Link>
-            <p className="text-sm text-slate-400 leading-relaxed mt-4">
-              Cabinet médical d'Endocrinologie, Diabétologie, Maladies Métaboliques et Nutrition. Une prise en charge globale, moderne et bienveillante au cœur de Meknès.
+            <p className="text-xs text-[#68727D] leading-relaxed mt-2">
+              {t.hero.desc}
             </p>
-            <div className="inline-flex items-center gap-2 text-xs font-semibold text-amber-400 bg-amber-950/60 border border-amber-800/60 px-3 py-1.5 rounded-full">
-              <Award className="w-3.5 h-3.5" /> Lauréate FMP Fès • Ancien Médecin CHU Fès
-            </div>
           </div>
 
-          {/* Quick Links */}
-          <div>
-            <h4 className="text-white font-heading font-bold text-base mb-6">Navigation</h4>
-            <ul className="space-y-3 text-sm flex flex-col">
+          {/* Navigation */}
+          <div className="space-y-4">
+            <h4 className="font-serif font-normal text-[#17202A] text-lg">
+              {t.footer.navHeader}
+            </h4>
+            <ul className="space-y-2.5 text-xs text-[#68727D] font-medium">
               {[
-                { name: 'Accueil', path: '/' },
-                { name: 'Le Cabinet & Spécialiste', path: '/about' },
-                { name: 'Services & Traitements', path: '/services' },
-                { name: 'Prendre Rendez-vous', path: '/booking' },
-                { name: 'Contact & Accès', path: '/contact' },
-                { name: 'Espace Praticien', path: '/admin/login' },
+                { name: t.nav.home, path: '/' },
+                { name: t.nav.about, path: '/about' },
+                { name: t.nav.services, path: '/services' },
+                { name: t.nav.booking, path: '/booking' },
+                { name: t.nav.contact, path: '/contact' },
               ].map((link) => (
-                <Link key={link.name} to={link.path} className="flex items-center hover:text-amber-400 transition-colors group w-fit">
-                  <ChevronRight className="w-4 h-4 text-slate-700 group-hover:text-amber-400 transition-colors mr-1" />
-                  {link.name}
-                </Link>
+                <li key={link.path}>
+                  <Link to={link.path} className="hover:text-[#7B2638] transition-colors flex items-center gap-1">
+                    <ChevronRight className="w-3 h-3 text-[#E6E3DF] rtl:rotate-180" />
+                    <span>{link.name}</span>
+                  </Link>
+                </li>
               ))}
             </ul>
           </div>
 
-          {/* Contact */}
-          <div>
-            <h4 className="text-white font-heading font-bold text-base mb-6">Contact & Adresse</h4>
-            <ul className="space-y-4 text-sm">
-              <li className="flex items-start gap-3">
-                <MapPin className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" />
-                <span>
-                  Avenue Moulay Youssef, Imperial Center<br />
-                  2ème étage, Bureau N°14 (En face de la maison Volvo)<br />
-                  Meknès 50000, Maroc
-                </span>
+          {/* Contact & Phones */}
+          <div className="space-y-4">
+            <h4 className="font-serif font-normal text-[#17202A] text-lg">
+              {t.footer.contactHeader}
+            </h4>
+            <ul className="space-y-3 text-xs text-[#68727D]">
+              <li className="flex items-start gap-2.5">
+                <MapPin className="w-4 h-4 text-[#7B2638] shrink-0 mt-0.5" />
+                <span>{t.contact.cityVal}</span>
               </li>
-              <li className="flex items-center gap-3">
-                <Phone className="w-5 h-5 text-amber-400 shrink-0" />
-                <div className="flex flex-col">
-                  <a href="tel:+212663559580" className="hover:text-white font-bold transition-colors">06 63 55 95 80</a>
-                  <a href="https://wa.me/212663559580" target="_blank" rel="noopener noreferrer" className="text-emerald-400 hover:text-emerald-300 transition-colors text-xs font-semibold">WhatsApp: 06 63 55 95 80</a>
+              <li className="flex items-start gap-2.5">
+                <Phone className="w-4 h-4 text-[#7B2638] shrink-0 mt-0.5" />
+                <div className="flex flex-col gap-1 text-[#17202A] font-medium">
+                  <a href="tel:+212522503315" className="hover:text-[#7B2638] transition-colors">+212 522 50 33 15</a>
+                  <a href="tel:+212612154032" className="hover:text-[#7B2638] transition-colors">+212 612 15 40 32</a>
                 </div>
               </li>
-              <li className="flex items-center gap-3">
-                <Mail className="w-5 h-5 text-amber-400 shrink-0" />
-                <a href="mailto:dr.bentalebsamia@gmail.com" className="hover:text-white transition-colors">dr.bentalebsamia@gmail.com</a>
-              </li>
             </ul>
           </div>
 
-          {/* Hours */}
-          <div>
-            <h4 className="text-white font-heading font-bold text-base mb-6">Horaires de Consultation</h4>
-            <ul className="space-y-3 text-sm">
-              <li className="flex justify-between items-center border-b border-slate-900 pb-2">
-                <span>Lundi - Vendredi</span>
-                <span className="text-white font-semibold">09:00 - 18:00</span>
-              </li>
-              <li className="flex justify-between items-center border-b border-slate-900 pb-2">
-                <span>Samedi</span>
-                <span className="text-white font-semibold">09:00 - 13:00</span>
-              </li>
-              <li className="flex justify-between items-center text-rose-400 pt-1">
-                <span>Dimanche</span>
-                <span className="font-semibold">Fermé</span>
-              </li>
-            </ul>
+          {/* Languages */}
+          <div className="space-y-4">
+            <h4 className="font-serif font-normal text-[#17202A] text-lg">
+              {t.footer.langHeader}
+            </h4>
+            <div className="flex flex-col gap-2 text-xs text-[#68727D]">
+              <button 
+                onClick={() => setLang('fr')} 
+                className={`text-left rtl:text-right transition-colors ${lang === 'fr' ? 'text-[#7B2638] font-bold' : 'hover:text-[#17202A]'}`}
+              >
+                Français
+              </button>
+              <button 
+                onClick={() => setLang('ar')} 
+                className={`text-left rtl:text-right transition-colors ${lang === 'ar' ? 'text-[#7B2638] font-bold' : 'hover:text-[#17202A]'}`}
+              >
+                العربية
+              </button>
+              <button 
+                onClick={() => setLang('en')} 
+                className={`text-left rtl:text-right transition-colors ${lang === 'en' ? 'text-[#7B2638] font-bold' : 'hover:text-[#17202A]'}`}
+              >
+                English
+              </button>
+            </div>
           </div>
 
         </div>
 
-        <div className="border-t border-slate-900 flex flex-col md:flex-row justify-between items-center pt-8 gap-4 text-xs text-slate-500">
-          <p>© {new Date().getFullYear()} Dr. BENTALEB Samia. Cabinet d'Endocrinologie, Diabétologie & Nutrition. Tous droits réservés.</p>
-          <div className="flex gap-4">
-            <Link to="/contact" className="hover:text-amber-400 transition-colors">Plan d'accès</Link>
-            <Link to="/booking" className="hover:text-amber-400 transition-colors">Prise de RDV</Link>
+        {/* Disclaimer Bar */}
+        <div className="border-t border-[#E6E3DF] pt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-[#68727D]">
+          <p>© {new Date().getFullYear()} {t.footer.rights}</p>
+          <div className="flex items-center gap-1.5 text-[11px]">
+            <Info className="w-3.5 h-3.5 text-[#7897B8] shrink-0" />
+            <span>{t.onlinePresence}</span>
           </div>
         </div>
+
       </div>
     </footer>
   );
 };
 
 export default Footer;
-

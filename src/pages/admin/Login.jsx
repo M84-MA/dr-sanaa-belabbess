@@ -42,8 +42,8 @@ const Login = () => {
           <div className="p-8 md:p-12">
             
             <div className="text-center mb-10">
-              <div className="w-20 h-20 bg-primary-50 rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-sm">
-                <img src={logo} alt="Logo" className="w-12 h-12 object-contain" />
+              <div className="w-28 h-20 flex items-center justify-center mx-auto mb-6">
+                <img src={logo} alt="Logo Cabinet" className="w-full h-full object-contain" />
               </div>
               <h1 className="text-2xl font-bold text-slate-800">Espace Administration</h1>
               <p className="text-slate-500 text-sm mt-2">Connectez-vous pour gérer votre cabinet</p>

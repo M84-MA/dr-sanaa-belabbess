@@ -34,17 +34,15 @@ const Sidebar = () => {
       <div className="p-6 flex items-center justify-between">
         {!isCollapsed && (
           <div className="flex items-center gap-3 overflow-hidden whitespace-nowrap">
-            <div className="bg-rose-50 p-1.5 rounded-xl shrink-0">
-              <DoctorLogoSymbol className="h-8 w-auto" />
-            </div>
+            <DoctorLogoSymbol className="h-9 w-auto shrink-0" />
             <div className="flex flex-col">
               <span className="font-bold text-slate-800 leading-tight">Portail Cabinet</span>
-              <span className="text-[10px] text-primary-700 font-bold tracking-widest uppercase">Dr. Bentaleb</span>
+              <span className="text-[10px] text-primary-700 font-bold tracking-widest uppercase">Dr. Aziza L'Aarje</span>
             </div>
           </div>
         )}
         {isCollapsed && (
-          <div className="bg-rose-50 p-1.5 rounded-xl mx-auto">
+          <div className="mx-auto">
             <DoctorLogoSymbol className="h-8 w-auto" />
           </div>
         )}
