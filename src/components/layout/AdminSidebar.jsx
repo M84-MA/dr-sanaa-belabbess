@@ -37,7 +37,7 @@ const Sidebar = () => {
             <DoctorLogoSymbol className="h-9 w-auto shrink-0" />
             <div className="flex flex-col">
               <span className="font-bold text-slate-800 leading-tight">Portail Cabinet</span>
-              <span className="text-[10px] text-primary-700 font-bold tracking-widest uppercase">Dr. Aziza L'Aarje</span>
+              <span className="text-[10px] text-emerald-800 font-bold tracking-widest uppercase">Dr Sanaa Belabbess</span>
             </div>
           </div>
         )}

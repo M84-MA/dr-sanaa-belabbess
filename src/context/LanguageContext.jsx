@@ -6,169 +6,173 @@ export const translations = {
   fr: {
     nav: {
       home: "Accueil",
-      about: "Profil & Parcours",
-      services: "Expertises Médicales",
-      contact: "Contact & Accès",
-      booking: "Demande de RDV",
+      about: "À propos",
+      services: "Services",
+      cabinet: "Cabinet",
+      contact: "Contact",
+      booking: "Prendre rendez-vous",
       callUs: "Appeler le cabinet",
       langSwitch: "Langue",
     },
     hero: {
-      eyebrow: "CARDIOLOGIE · CASABLANCA",
-      badge: "Cardiologue à Casablanca • Maroc",
-      title: "Dr. Aziza L'Aarje",
-      subtitle: "Cardiologue",
-      subHeading: "Cardiologie & Échographie Cardiovasculaire",
-      desc: "Une prise en charge cardiovasculaire fondée sur l'écoute, la précision et l'expertise médicale.",
+      eyebrow: "MÉDECINE GÉNÉRALE · RABAT",
+      badge: "Médecin Généraliste à Rabat • Maroc",
+      title: "Dr Sanaa Belabbess",
+      subtitle: "Médecin Généraliste",
+      subHeading: "Consultation, prévention & suivi médical personnalisé",
+      desc: "Une prise en charge médicale attentive, accessible et personnalisée à Rabat.",
       ctaBooking: "Prendre rendez-vous",
-      discoverProfile: "Découvrir le parcours",
-      ctaCall: "Appeler: 05 22 50 33 15",
-      altCall: "Autre ligne: 06 12 15 40 32",
+      discoverProfile: "Découvrir le cabinet",
+      ctaCall: "Appeler: 05 37 29 67 61",
+      altCall: "+212 537 29 67 61",
     },
     intro: {
-      title: "Une expertise dédiée à la santé cardiovasculaire",
-      desc: "Une démarche médicale rigoureuse pour l'évaluation, le diagnostic ultrasonore et le suivi des affections du cœur.",
-      cardioTitle: "Cardiologie",
-      cardioDesc: "Consultation médicale spécialisée, bilan et suivi continu du système cardiaque et vasculaire.",
-      echoCardioTitle: "Échographie cardiaque",
-      echoCardioDesc: "Exploration ultrasonore de la structure des cavités et de la dynamique des valves cardiaques.",
-      echoVascTitle: "Échographie vasculaire",
-      echoVascDesc: "Examen échographique et évaluation précise de la circulation sanguine artérielle et veineuse.",
+      title: "Une médecine générale centrée sur le patient",
+      desc: "Prise en charge globale, écoute attentive et soins de proximité pour toute la famille à Rabat.",
+      cardioTitle: "Consultation générale",
+      cardioDesc: "Évaluation clinique complète, diagnostic et suivi personnalisé de votre état de santé.",
+      echoCardioTitle: "Bilan & Prévention",
+      echoCardioDesc: "Examens de contrôle, bilan de santé et prévention des facteurs de risque au quotidien.",
+      echoVascTitle: "Suivi continu",
+      echoVascDesc: "Accompagnement attentif et suivi médical régulier pour le bien-être de chaque patient.",
     },
     expertise: {
-      tag: "Domaines d'expertise",
-      title: "Domaines d'expertise",
-      subtitle: "Exploration, diagnostic ultrasonore et suivi spécialisé en cardiologie à Casablanca.",
-      notice: "La présentation ci-dessus correspond exclusivement aux champs d'expertise médicale publiquement documentés pour le Dr Aziza L'Aarje.",
-      ctaTitle: "Besoin d'un bilan ou d'une consultation ?",
-      ctaDesc: "Pour toute demande de rendez-vous ou de suivi cardiovasculaire, contactez directement le cabinet.",
+      tag: "SERVICES MÉDICAUX",
+      title: "Services médicaux",
+      subtitle: "Consultations et suivi médical de médecine générale à Rabat.",
+      notice: "Services généraux de médecine dispensés au cabinet. Pour toute prestation spécifique, veuillez vous renseigner auprès du secrétariat.",
+      ctaTitle: "Besoin d'une consultation ?",
+      ctaDesc: "Contactez directement le cabinet pour obtenir des informations ou organiser votre consultation.",
       items: [
         {
-          id: "cardiologie",
-          title: "Cardiologie",
-          desc: "Consultation, diagnostic et prise en charge des affections du cœur et du système cardiovasculaire.",
-          icon: "HeartPulse"
-        },
-        {
-          id: "echographie-cardiaque",
-          title: "Échographie cardiaque",
-          desc: "Exploration ultrasonore de la structure et du fonctionnement des cavités et valves cardiaques.",
-          icon: "Activity"
-        },
-        {
-          id: "echographie-vasculaire",
-          title: "Échographie vasculaire",
-          desc: "Examen échographique de la circulation sanguine artérielle et veineuse.",
+          id: "consultation-generale",
+          title: "Consultation de médecine générale",
+          desc: "Diagnostic, traitement des affections courantes et accompagnement médical global et personnalisé du patient.",
           icon: "Stethoscope"
         },
         {
-          id: "evaluation-cardiovasculaire",
-          title: "Évaluation cardiovasculaire",
-          desc: "Bilan complet de la santé cardiaque et appréciation globale du risque cardiovasculaire.",
-          icon: "ShieldCheck"
+          id: "suivi-grossesse",
+          title: "Suivi de grossesse",
+          desc: "Suivi médical complet et attentif tout au long de la grossesse pour la mère et l'enfant.",
+          icon: "Heart"
         },
         {
-          id: "suivi-cardiovasculaire",
-          title: "Suivi cardiovasculaire",
-          desc: "Accompagnement médical continu et suivi régulier des patients cardiaques.",
-          icon: "UserCheck"
+          id: "echographie",
+          title: "Échographie (Diplôme)",
+          desc: "Réalisation d'échographies au cabinet grâce à un diplôme spécialisé en échographie médicale.",
+          icon: "Scan"
+        },
+        {
+          id: "nutrition",
+          title: "Nutrition & Diététique (Diplôme)",
+          desc: "Conseils nutritionnels personnalisés et suivi diététique avec diplôme en nutrition et hygiène alimentaire.",
+          icon: "Apple"
+        },
+        {
+          id: "ecg",
+          title: "Électrocardiogramme (ECG)",
+          desc: "Réalisation d'ECG au cabinet pour évaluer la santé cardiaque et dépister d'éventuelles anomalies.",
+          icon: "Activity"
+        },
+        {
+          id: "aptitude-conduite",
+          title: "Visite médicale – Aptitude à la conduite",
+          desc: "Médecin agréée pour réaliser les visites médicales d'aptitude à la conduite automobile.",
+          icon: "Car"
         }
       ]
     },
     profile: {
-      tag: "PARCOURS PROFESSIONNEL",
-      title: "Parcours & Qualification",
-      heading: "Une formation médicale construite entre le Maroc et la France",
-      subtitle: "Dr Aziza L'Aarje est cardiologue à Casablanca. Diplômée de la Faculté de Médecine et de Pharmacie de Casablanca et titulaire d'un diplôme en échographie cardiaque et vasculaire de l'Université de Bordeaux, elle a également effectué des stages d'internat au CHU Ibn Rochd de Casablanca et au CHU de Limoges en France.",
+      tag: "À PROPOS DU CABINET",
+      title: "À propos",
+      heading: "Une médecine générale centrée sur le patient",
+      subtitle: "Dr Sanaa Belabbess est diplômée de la Faculté de Médecine et de Pharmacie de Casablanca. Médecin généraliste à Rabat, son cabinet est situé au 218, Av. Sidi Mohamed Ben Abdellah, Hay Sehrij / CYM. Elle offre une approche médicale humaine, rigoureuse et rassurante.",
       bullets: [
         {
-          title: "Diplôme universitaire de médecine",
-          detail: "Diplômée de la Faculté de Médecine et de Pharmacie de Casablanca",
-          tag: "FMP Casablanca"
+          title: "Diplômée – Faculté de Médecine de Casablanca",
+          detail: "Formation médicale à la Faculté de Médecine et de Pharmacie de Casablanca — compétences académiques et cliniques éprouvées.",
+          tag: "Formation"
         },
         {
-          title: "Diplôme d'échographie spécialisée",
-          detail: "Diplôme en Échographie Cardiaque et Vasculaire de l'Université de Bordeaux, France",
-          tag: "Université de Bordeaux"
+          title: "Suivi de grossesse & Échographie",
+          detail: "Suivi médical complet de la grossesse et réalisation d'échographies au cabinet (diplôme en échographie).",
+          tag: "Spécialités"
         },
         {
-          title: "Internat hospitalier (Maroc)",
-          detail: "Ancienne interne au CHU Ibn Rochd de Casablanca",
-          tag: "CHU Ibn Rochd"
-        },
-        {
-          title: "Internat hospitalier (France)",
-          detail: "Ancienne interne au CHU de Limoges, France",
-          tag: "CHU Limoges"
-        },
-        {
-          title: "Pratique hospitalière",
-          detail: "Praticienne à l'Hôpital Universitaire Cheikh Khalifa Ben Zayed, Casablanca",
-          tag: "Hôpital Cheikh Khalifa"
+          title: "Nutrition, ECG & Aptitude à la conduite",
+          detail: "Diplôme en nutrition, électrocardiogramme (ECG) et médecine agréée pour la visite d'aptitude à la conduite.",
+          tag: "Services"
         }
       ]
     },
     academic: {
-      title: "Travaux & Publications Scientifiques",
-      desc: "Le nom du Dr Aziza L'Aarje figure dans des publications scientifiques médicales en cardiologie associées à des institutions de santé de Casablanca, notamment au Centre de Cardiologie du CHU Ibn Rochd.",
-      note: "Informations scientifiques documentées dans les publications spécialisées."
+      title: "Formation & Diplômes",
+      desc: "Diplômée de la Faculté de Médecine et de Pharmacie de Casablanca — médecin généraliste avec des diplômes complémentaires en échographie et en nutrition.",
+      note: "Informations issues de la carte de visite officielle du cabinet."
     },
     patientJourney: {
-      title: "Une prise en charge attentive à chaque étape",
-      subtitle: "Chaque consultation s'articule autour d'un protocole clinique clair et respectueux.",
-      step1Title: "Écoute",
-      step1Desc: "Écoute attentive et examen approfondi de vos symptômes et de votre historique médical.",
-      step2Title: "Évaluation",
-      step2Desc: "Évaluation clinique complète de votre état de santé cardiovasculaire.",
-      step3Title: "Examens complémentaires",
-      step3Desc: "Réalisation d'échographies cardiaques et vasculaires si nécessaire.",
-      step4Title: "Suivi personnalisé",
-      step4Desc: "Accompagnement et suivi médical régulier pour préserver votre santé."
+      title: "Votre parcours de soin au cabinet",
+      subtitle: "Une démarche simple et transparente de la prise de rendez-vous au suivi.",
+      step1Title: "Écoute attentive",
+      step1Desc: "Analyse complète de vos symptômes et de vos besoins de santé lors de la consultation.",
+      step2Title: "Examen & Diagnostic",
+      step2Desc: "Évaluation clinique rigoureuse et conseils adaptés à votre situation.",
+      step3Title: "Traitement adapté",
+      step3Desc: "Prescription et recommandations médicales claires pour votre rétablissement.",
+      step4Title: "Suivi médical",
+      step4Desc: "Accompagnement continu pour maintenir votre santé sur le long terme."
     },
     address: {
-      tag: "LOCALISATION",
+      tag: "CABINET & LOCALISATION",
       title: "Le cabinet",
-      subtitle: "Casablanca, Maroc",
-      dirPhonesTitle: "Lignes téléphoniques publiques",
-      dirAddressesTitle: "Adresses répertoriées dans les annuaires",
-      primaryTitle: "Adresse répertoriée (Résidence Ryad Al Quds)",
-      primaryDetail: "Résidence Ryad Al Quds, 1er étage (par ascenseur), Angle Boulevard Al Qods et Boulevard Haifa, Casablanca, Maroc",
-      secondaryTitle: "Autre association répertoriée (Hôpital Cheikh Khalifa)",
-      secondaryDetail: "Hôpital Universitaire Cheikh Khalifa, Boulevard Mohamed Taib Naciri, Hay Hassani, Casablanca, Maroc",
-      disclaimer: "Information d'adresse à confirmer directement avec le médecin avant tout déplacement."
+      subtitle: "Rabat, Maroc",
+      dirPhonesTitle: "Téléphone du cabinet",
+      dirAddressesTitle: "Adresse du cabinet",
+      primaryTitle: "Adresse officielle",
+      primaryDetail: "218, Av. Sidi Mohamed Ben Abdellah, Hay Sehrij, CYM – Rabat",
+      secondaryTitle: "Quartier",
+      secondaryDetail: "Hay Sehrij / CYM / Yacoub El Mansour, Rabat",
+      area: "Hay Sehrij / CYM / Yacoub El Mansour",
+      disclaimer: "Adresse issue de la carte de visite officielle du cabinet."
     },
     hours: {
       tag: "HORAIRES DE CONSULTATION",
-      title: "Horaires de consultation",
-      monFri: "Lundi à Vendredi",
-      monFriTime: "09:00–13:00 | 15:00–19:00",
+      title: "Horaires d'ouverture",
+      mon: "Lundi",
+      monTime: "09:00 – 16:30",
+      tue: "Mardi",
+      tueTime: "09:00 – 17:00",
+      wed: "Mercredi",
+      wedTime: "09:00 – 17:00",
+      thu: "Jeudi",
+      thuTime: "09:00 – 17:00",
+      fri: "Vendredi",
+      friTime: "09:00 – 17:00",
       sat: "Samedi",
-      satTime: "09:00–13:00",
+      satTime: "09:00 – 13:00",
       sun: "Dimanche",
       sunTime: "Fermé",
-      disclaimer: "Ces horaires sont issus de répertoires publics. Ils doivent être traités comme indicatifs et être confirmés directement auprès du médecin."
+      disclaimer: "Horaires indicatifs d'annuaires publics — à confirmer avec le cabinet."
     },
     contact: {
       tag: "CONTACT & ACCÈS",
-      title: "Coordonnées du cabinet",
-      subtitle: "Retrouvez l'ensemble des informations de contact et d'accès répertoriées.",
-      mainPhone: "Téléphone principal",
-      mainSub: "Téléphone fixe",
-      mainNum: "+212 522 50 33 15",
-      addPhone: "Téléphone complémentaire",
-      addSub: "Téléphone mobile",
-      addNum: "+212 612 15 40 32",
-      city: "Ville",
-      cityVal: "Casablanca, Maroc",
+      title: "Contactez le cabinet",
+      subtitle: "Contactez directement le cabinet pour obtenir des informations ou organiser votre consultation.",
+      mainPhone: "Téléphone du cabinet",
+      mainSub: "Ligne directe",
+      mainNum: "05 37 29 67 61",
+      intNum: "+212 537 29 67 61",
+      city: "Ville & Secteur",
+      cityVal: "Rabat, Maroc (Hay Sahrij / CYM)",
       langSpoken: "Langue parlée",
       langVal: "Français",
-      callButtonMain: "Appeler au 05 22 50 33 15",
-      callButtonAdd: "Appeler au 06 12 15 40 32"
+      callButtonMain: "Appeler le cabinet (05 37 29 67 61)",
+      callButtonInt: "Appeler: +212 537 29 67 61"
     },
     booking: {
-      tag: "RÉSERVATION EN LIGNE",
+      tag: "PRISE DE RENDEZ-VOUS",
       title: "Demande de rendez-vous",
-      desc: "Remplissez ce formulaire pour préparer votre demande de rendez-vous. Le secrétariat vous recontactera aux numéros officiels.",
+      desc: "Remplissez ce formulaire pour transmettre votre demande de rendez-vous au secrétariat du cabinet.",
       nameLabel: "Nom Complet *",
       phoneLabel: "Numéro de Téléphone *",
       expertiseLabel: "Motif de Consultation *",
@@ -177,257 +181,278 @@ export const translations = {
       timeLabel: "Créneau horaire *",
       noteLabel: "Message / Précisions (Optionnel)",
       submitButton: "Soumettre la demande",
-      confirmNotice: "Vos coordonnées téléphoniques seront transmises pour confirmation directe avec le médecin.",
-      modalTitle: "Demande de rendez-vous enregistrée",
-      modalDesc: "Veuillez contacter le cabinet par téléphone pour valider définitivement votre créneau :",
+      confirmNotice: "Votre demande sera transmise pour confirmation avec le secrétariat.",
+      modalTitle: "Demande enregistrée",
+      modalDesc: "Contactez directement le cabinet pour valider votre rendez-vous :",
       modalClose: "Fermer"
     },
     cta: {
-      title: "Prenez rendez-vous",
-      desc: "Pour toute demande de consultation ou de bilan cardiovasculaire, contactez directement le cabinet.",
-      onlineBooking: "Prendre rendez-vous en ligne",
-      callBtn: "Appeler: 05 22 50 33 15"
+      title: "Besoin d'une consultation ?",
+      desc: "Contactez directement le cabinet pour obtenir des informations ou organiser votre consultation.",
+      onlineBooking: "Prendre rendez-vous",
+      callBtn: "Appeler le cabinet: 05 37 29 67 61"
     },
-    onlinePresence: "Aucun site web officiel personal n'a été identifié dans les sources consultées. Les informations présentées sur cette page s'appuient strictement sur les annuaires et publications médicales publics vérifiés.",
+    onlinePresence: "Informations issues de répertoires publics professionnels.",
     reviews: {
-      tag: "AVIS PATIENTS",
-      title: "Ce que disent nos patients",
-      subtitle: "Avis authentiques Google Maps — Dr Aziza L'Aarje, Cardiologue à Casablanca",
-      rating: "4,8",
-      total: "sur 55 avis",
+      tag: "AVIS PATIENTS GOOGLE",
+      title: "Ce que disent les patients",
+      subtitle: "Avis authentiques publiés sur Google Maps — Dr Sanaa Belabbess à Rabat",
+      rating: "4,7",
+      total: "sur 35 avis",
       source: "Source: Google Maps",
+      viewReviews: "Voir tous les avis sur Google Maps",
       items: [
         {
           id: 1,
-          name: "Khadija Azougagh",
+          name: "blake Saad",
           rating: 5,
-          date: "Il y a 2 mois",
-          lang: "fr",
-          text: "Excellente cardiologue, très professionnelle et à l'écoute. Elle prend le temps d'expliquer chaque résultat avec clarté et bienveillance. Je recommande vivement."
+          date: "Il y a 5 mois",
+          lang: "ar",
+          text: "الدكتوره سناء من أطيب خلق الله ،جمعت بين الخبرة و الأخلاق كذلك الفتاة في الإستقبال فتاة طيبة و محترمة و متقنة لعملها جزاكم الله كل خير."
         },
         {
           id: 2,
-          name: "Rachid Laaroussi",
+          name: "mama Ana",
           rating: 5,
-          date: "Il y a 3 mois",
+          date: "Il y a 2 mois",
           lang: "fr",
-          text: "Médecin très compétente et sérieuse. Consultation approfondie, échographie réalisée sur place. Le cabinet est propre et bien tenu. Très satisfait."
+          text: "Dr je la recommande forcément toujours à l'écoute, patiente, compréhensive, respectueuse et souriante."
         },
         {
           id: 3,
-          name: "Fatima Z.",
+          name: "Abd Elhak EL KEBBABY",
           rating: 5,
-          date: "Il y a 1 mois",
-          lang: "ar",
-          text: "طبيبة ممتازة وإنسانة رائعة. تأخذ وقتها في الشرح والاستماع. سعيدة جداً بالاستشارة وأنصح الجميع بزيارتها."
+          date: "Il y a 1 an",
+          lang: "fr",
+          text: "Top professionnelle, je mets 5 pour la capacité d'écoute de Mme SANAA BELABBESS, le patient peut prendre tout le temps nécessaire pour décrire son état de santé."
         },
         {
           id: 4,
-          name: "Mohamed Benali",
+          name: "Hanane Lebbali",
           rating: 5,
-          date: "Il y a 5 mois",
+          date: "Il y a 1 an",
           lang: "fr",
-          text: "Très bonne cardiologue, sérieuse et attentive. Elle a pris le temps de bien analyser mon dossier. Cabinet bien situé, accès facile."
+          text: "Médecin compétente, toujours à l'écoute, je la recommande vivement."
         },
         {
           id: 5,
-          name: "Amina El Hassani",
+          name: "sabrina sabri",
           rating: 5,
-          date: "Il y a 4 mois",
-          lang: "ar",
-          text: "دكتورة محترفة جداً. الفحص كان دقيقاً والشرح مفصلاً. شكراً جزيلاً على حسن الاستقبال."
+          date: "Il y a 2 ans",
+          lang: "en",
+          text: "The best doctor for me, she listens to you and gives you solutions before the examination, and she is a non-materialistic person."
         },
         {
           id: 6,
-          name: "Samir Qabbaj",
+          name: "imane essalami",
           rating: 5,
-          date: "Il y a 6 mois",
+          date: "Il y a 1 an",
           lang: "fr",
-          text: "Consultation de grande qualité. Le Dr L'Aarje est très professionnelle, rassurante et précise dans ses diagnostics. Je recommande sans hésitation."
+          text: "Je la recommande. Très compétente et humaine."
+        },
+        {
+          id: 7,
+          name: "Mustapha benhsain",
+          rating: 5,
+          date: "Il y a 3 ans",
+          lang: "fr",
+          text: "Super Docteur à l'écoute, prendre le temps d'examiner avec minutie."
+        },
+        {
+          id: 8,
+          name: "Mostafa Ouldkhyi",
+          rating: 5,
+          date: "Il y a 3 ans",
+          lang: "ar",
+          text: "لهلا يخطيك علينا ادكتورة"
         }
       ]
     },
     map: {
       tag: "LOCALISATION GOOGLE MAPS",
-      title: "Nous trouver",
-      subtitle: "Résidence Ryad Al Quds, 1er étage, Angle Bd Al Qods & Bd Haifa, Casablanca",
-      directions: "Obtenir l'itinéraire"
+      title: "Nous trouver à Rabat",
+      subtitle: "218 Avenue Mohamed Ben Abdellah, Quartier Yacoub El Mansour / Hay Sahrij, Rabat",
+      directions: "Voir l'itinéraire"
     },
     footer: {
       navHeader: "Navigation",
       contactHeader: "Contact",
       langHeader: "Langues",
-      rights: "Dr. Aziza L'Aarje — Cardiologue à Casablanca. Tous droits réservés.",
-      disclaimerNote: "Informations réunies à titre informatif selon les données publiques vérifiées."
+      rights: "Dr Sanaa Belabbess — Médecin Généraliste à Rabat. Tous droits réservés.",
+      disclaimerNote: "Informations réunies à titre informatif selon les données publiques répertoriées."
     }
   },
 
   ar: {
     nav: {
       home: "الرئيسية",
-      about: "المسار والسيرة",
-      services: "التخصصات والخبرة",
-      contact: "التواصل والعنوان",
-      booking: "طلب موعد",
+      about: "عن العيادة",
+      services: "الخدمات",
+      cabinet: "العيادة",
+      contact: "التواصل",
+      booking: "حجز موعد",
       callUs: "الاتصال بالعيادة",
       langSwitch: "اللغة",
     },
     hero: {
-      eyebrow: "أمراض القلب · الدار البيضاء",
-      badge: "طبيبة أخصائية في أمراض القلب • الدار البيضاء، المغرب",
-      title: "د. عزيزة العارجي",
-      subtitle: "طبيبة أخصائية في أمراض القلب",
-      subHeading: "أخصائية أمراض القلب والفحص بالصدى للقلب والأوعية الدموية",
-      desc: "رعاية طبية متخصصة في أمراض القلب تقوم على الإنصات والتقييم الدقيق والخبرة الطبية الموثقة.",
+      eyebrow: "طب عام · الرباط",
+      badge: "طبيبة عامة بالرباط • المغرب",
+      title: "د. سناء بلعباس",
+      subtitle: "طبيبة عامة",
+      subHeading: "استشارات، وقاية ومتابعة طبية شخصية",
+      desc: "رعاية طبية دقيقة، ميسرة ومخصصة بمدينة الرباط.",
       ctaBooking: "حجز موعد طبي",
-      discoverProfile: "التعرف على المسار المهني",
-      ctaCall: "الاتصال: 15 33 50 522 0",
-      altCall: "خط إضافي: 32 40 15 12 06",
+      discoverProfile: "التعرف على العيادة",
+      ctaCall: "الاتصال: 61 67 29 37 05",
+      altCall: "+212 537 29 67 61",
     },
     intro: {
-      title: "خبرة مخصصة لصحة القلب والأوعية الدموية",
-      desc: "نهج طبي دقيق للتقييم، التشخيص بالصدى، ومتابعة كافة أمراض القلب.",
-      cardioTitle: "أمراض القلب",
-      cardioDesc: "استشارات طبية متخصصة، تقييم ومتابعة مستمرة لجهاز القلب والأوعية الدموية.",
-      echoCardioTitle: "الفحص بالصدى للقلب",
-      echoCardioDesc: "فحص بالموجات فوق الصوتية لبنية حجيرات وصمامات القلب وحركيتها.",
-      echoVascTitle: "الفحص بالصدى للأوعية الدموية",
-      echoVascDesc: "فحص وتقييم دقيق للدورة الدموية الشريانية والوريدية.",
+      title: "طب عام يضع المريض في صلب الاهتمام",
+      desc: "رعاية صحية شاملة، إنصات دقيق ومتابعة قريبة لكافة أفراد العائلة بالرباط.",
+      cardioTitle: "استشارة طبية عامة",
+      cardioDesc: "تقييم سريري شامل، تشخيص دقيق ومتابعة شخصية لحالتك الصحية.",
+      echoCardioTitle: "فحص ووقاية",
+      echoCardioDesc: "فحوصات دورية، تقييم شامل للصحة والوقاية من المخاطر الصحية.",
+      echoVascTitle: "متابعة مستمرة",
+      echoVascDesc: "مواكبة طبية منتظمة لضمان سلامة وصحة كل مريض.",
     },
     expertise: {
-      tag: "مجالات الاختصاص",
-      title: "مجالات الاختصاص والخبرة الطبية",
-      subtitle: "الفحوصات الطبية، التشخيص بالصدى والمتابعة المتخصصة بالدار البيضاء.",
-      notice: "تلتزم هذه الصفحة بحصر الخدمات الطبية المقدمة المعروضة وفقًا للبيانات الموثقة رسميًا دون إضافة أي إجراءات غير مثبتة.",
-      ctaTitle: "هل تحتاج إلى فحص أو استشارة طبية؟",
-      ctaDesc: "لطلب موعد أو متابعة لأمراض القلب والأوعية الدموية، اتصل مباشرة بالعيادة.",
+      tag: "الخدمات الطبية",
+      title: "الخدمات الطبية",
+      subtitle: "استشارات ومتابعة طبية عامة بالرباط.",
+      notice: "الخدمات المعروضة تشمل الطب العام. للحصول على تفاصيل إضافية، يرجى التواصل مع كتابة العيادة.",
+      ctaTitle: "هل تحتاج إلى استشارة طبية؟",
+      ctaDesc: "اتصل مباشرة بالعيادة للحصول على معلومات أو تنظيم موعد استشارتك.",
       items: [
         {
-          id: "cardiologie",
-          title: "أمراض القلب",
-          desc: "استشارات، تشخيص وعلاج أمراض القلب والجهاز الدوري والأوعية الدموية.",
-          icon: "HeartPulse"
-        },
-        {
-          id: "echographie-cardiaque",
-          title: "الفحص بالصدى للقلب",
-          desc: "فحص دقيق للموجات فوق الصوتية لبنية ووظائف حجيرات وصمامات القلب.",
-          icon: "Activity"
-        },
-        {
-          id: "echographie-vasculaire",
-          title: "الفحص بالصدى للأوعية الدموية",
-          desc: "فحص بالصدى للشرايين والأوردة وتقييم التدفق الدموي.",
+          id: "consultation-generale",
+          title: "استشارة طبية عامة",
+          desc: "تشخيص وعلاج الأمراض الشائعة ومتابعة شاملة ومخصصة للمريض.",
           icon: "Stethoscope"
         },
         {
-          id: "evaluation-cardiovasculaire",
-          title: "التقييم القلبي الوعائي",
-          desc: "تقييم شامل لصحة القلب وحساب عامل المخاطر القلبية الوعائية.",
-          icon: "ShieldCheck"
+          id: "suivi-grossesse",
+          title: "متابعة الحمل",
+          desc: "متابعة طبية متكاملة ودقيقة طوال فترة الحمل لصحة الأم والجنين.",
+          icon: "Heart"
         },
         {
-          id: "suivi-cardiovasculaire",
-          title: "المتابعة القلبية الوعائية",
-          desc: "متابعة طبية مستمرة وشاملة لمرضى القلب والأوعية الدموية.",
-          icon: "UserCheck"
+          id: "echographie",
+          title: "السونار / الإيكوغرافيا (دبلوم)",
+          desc: "إجراء فحوصات السونار بالعيادة بفضل دبلوم متخصص في الإيكوغرافيا الطبية.",
+          icon: "Scan"
+        },
+        {
+          id: "nutrition",
+          title: "التغذية والحمية (دبلوم)",
+          desc: "نصائح غذائية مخصصة ومتابعة للحمية مع دبلوم في التغذية والنظام الغذائي.",
+          icon: "Apple"
+        },
+        {
+          id: "ecg",
+          title: "تخطيط القلب (ECG)",
+          desc: "إجراء تخطيط القلب بالعيادة لتقييم الصحة القلبية والكشف عن الاضطرابات.",
+          icon: "Activity"
+        },
+        {
+          id: "aptitude-conduite",
+          title: "الفحص الطبي للقدرة على السياقة",
+          desc: "طبيبة معتمدة لإجراء الفحص الطبي الخاص بالقدرة على قيادة السيارات.",
+          icon: "Car"
         }
       ]
     },
     profile: {
-      tag: "المسار المهني والدراسي",
-      title: "التأهيل الأكاديمي والمهني",
-      heading: "تكوين طبي متميز ومبني بين المغرب وفرنسا",
-      subtitle: "د. عزيزة العارجي هي طبيبة أخصائية في أمراض القلب في الدار البيضاء. خريجة كلية الطب والصيدلة بالدار البيضاء وحاصلة على دبلوم في الفحص بالصدى للقلب والأوعية الدموية من جامعة بوردو بفرنسا، كما أتمت تدريباتها كطبيبة مقيمة في المركز الاستشفائي الجامعي ابن رشد بالدار البيضاء والمركز الاستشفائي الجامعي بليموج بفرنسا.",
+      tag: "عن العيادة الطبية",
+      title: "عن العيادة",
+      heading: "طب عام يضع المريض في صلب الاهتمام",
+      subtitle: "د. سناء بلعباس خريجة كلية الطب والصيدلة بالدار البيضاء. طبيبة عامة بالرباط، تقع عيادتها في 218 شارع سيدي محمد بن عبد الله، حي السهريج، CYM. تقدم رعاية طبية إنسانية، دقيقة ومطمئنة.",
       bullets: [
         {
-          title: "الدبلوم الجامعي في الطب",
-          detail: "خريجة كلية الطب والصيدلة بالدار البيضاء",
-          tag: "كلية الطب بالدار البيضاء"
+          title: "خريجة كلية الطب والصيدلة بالدار البيضاء",
+          detail: "تكوين طبي أكاديمي وسريري متميز من كلية الطب والصيدلة بالدار البيضاء.",
+          tag: "الشهادة"
         },
         {
-          title: "دبلوم التخصص في الفحص بالصدى",
-          detail: "دبلوم في الفحص بالصدى للقلب والأوعية الدموية من جامعة بوردو، فرنسا",
-          tag: "جامعة بوردو - فرنسا"
+          title: "متابعة الحمل والسونار والتغذية",
+          detail: "متابعة الحمل، دبلوم في الإيكوغرافيا ودبلوم في التغذية والنظام الغذائي.",
+          tag: "التخصصات"
         },
         {
-          title: "تدريب الأطباء المقيمين (المغرب)",
-          detail: "طبيبة مقيمة سابقاً بالمركز الاستشفائي الجامعي ابن رشد بالدار البيضاء",
-          tag: "المركز الاستشفائي ابن رشد"
-        },
-        {
-          title: "تدريب الأطباء المقيمين (فرنسا)",
-          detail: "طبيبة مقيمة سابقاً بالمركز الاستشفائي الجامعي بليموج، فرنسا",
-          tag: "مستشفى ليموج - فرنسا"
-        },
-        {
-          title: "الممارسة الاستشفائية",
-          detail: "طبيبة ممارسة بالمستشفى الجامعي الشيخ خليفة بن زايد بالدار البيضاء",
-          tag: "مستشفى الشيخ خليفة"
+          title: "تخطيط القلب والسياقة والتغذية",
+          detail: "إجراء تخطيط القلب (ECG) وفحص القدرة على السياقة كطبيبة معتمدة.",
+          tag: "الخدمات"
         }
       ]
     },
     academic: {
-      title: "الأبحاث والمنشورات العلمية",
-      desc: "يرتبط اسم د. عزيزة العارجي بدارسات ومنشورات علمية في مجال أمراض القلب بالتعاون مع مؤسسات طبية بالدار البيضاء، ولا سيما مركز أمراض القلب بالمركز الاستشفائي الجامعي ابن رشد.",
-      note: "معلومات علمية موثقة في الدوريات الطبية المتخصصة."
+      title: "الشهادة والتكوين",
+      desc: "خريجة كلية الطب والصيدلة بالدار البيضاء — طبيبة عامة بدبلومات في الإيكوغرافيا والتغذية.",
+      note: "المعلومات مستخرجة من البطاقة الرسمية للعيادة."
     },
     patientJourney: {
-      title: "رعاية طبية دقيقة ومواكبة في كل مرحلة",
-      subtitle: "تعتمد كل استشارة طبية على بروتوكول سريري واضح ومحترم.",
-      step1Title: "الإنصات والاستماع",
-      step1Desc: "استماع دقيق ودراسة شاملة للأعراض والمسار الصحي للمريض.",
-      step2Title: "التقييم الطبي",
-      step2Desc: "تقييم شامل لصحة القلب والأوعية الدموية وتقدير عوامل الخطورة.",
-      step3Title: "الفحوصات التكميلية",
-      step3Desc: "فحوصات الفحص بالصدى للقلب والأوعية الدموية عند الحاجة.",
-      step4Title: "المتابعة المخصصة",
-      step4Desc: "متابعة طبية دقيقة ومستمرة لضمان الاستقرار وصحة القلب."
+      title: "مسار الرعاية الخاصة بك في العيادة",
+      subtitle: "خطوات بسيطة وشفافة من طلب الموعد حتى المتابعة.",
+      step1Title: "الإنصات الدقيق",
+      step1Desc: "دراسة شاملة للأعراض والاحتياجات الصحية خلال الاستشارة.",
+      step2Title: "الفحص والتشخيص",
+      step2Desc: "فحص سريري دقيق ونصائح طبية مخصصة لحالتك.",
+      step3Title: "العلاج المناسب",
+      step3Desc: "وصفات وإرشادات طبية واضحة لتعافيك.",
+      step4Title: "المتابعة الطبية",
+      step4Desc: "متابعة مستمرة للحفاظ على صحتك على المدى الطويل."
     },
     address: {
-      tag: "الموقع والعنوان",
+      tag: "العيادة والموقع",
       title: "العيادة الطبية",
-      subtitle: "الدار البيضاء، المغرب",
-      dirPhonesTitle: "خطوط الهاتف المعلنة",
-      dirAddressesTitle: "العناوين المسجلة في الأدلة الطبية",
-      primaryTitle: "العنوان المسجل (إقامة رياض القدس)",
-      primaryDetail: "إقامة رياض القدس، الطابق الأول (مصعد)، تقاطع شارع القدس وشارع حيفا، الدار البيضاء، المغرب",
-      secondaryTitle: "المؤسسة المرتبطة (مستشفى الشيخ خليفة)",
-      secondaryDetail: "المستشفى الجامعي الشيخ خليفة، شارع محمد الطيب الناصري، الحي الحسني، الدار البيضاء، المغرب",
-      disclaimer: "معلومات العنوان يجب تأكيدها مباشرة مع الطبيبة قبل التنقل."
+      subtitle: "الرباط، المغرب",
+      dirPhonesTitle: "هاتف العيادة",
+      dirAddressesTitle: "عنوان العيادة",
+      primaryTitle: "العنوان الرسمي",
+      primaryDetail: "218، شارع سيدي محمد بن عبد الله، حي السهريج، CYM – الرباط",
+      secondaryTitle: "الحي",
+      secondaryDetail: "حي السهريج / CYM / يعقوب المنصور، الرباط",
+      area: "حي السهريج / CYM / يعقوب المنصور",
+      disclaimer: "العنوان مستخرج من البطاقة الرسمية للعيادة."
     },
     hours: {
       tag: "أوقات العيادة والاستشارات",
-      title: "أوقات العمل والعيادة",
-      monFri: "من الإثنين إلى الجمعة",
-      monFriTime: "09:00–13:00 | 15:00–19:00",
+      title: "أوقات العمل",
+      mon: "الإثنين",
+      monTime: "09:00 – 16:30",
+      tue: "الثلاثاء",
+      tueTime: "09:00 – 17:00",
+      wed: "الأربعاء",
+      wedTime: "09:00 – 17:00",
+      thu: "الخميس",
+      thuTime: "09:00 – 17:00",
+      fri: "الجمعة",
+      friTime: "09:00 – 17:00",
       sat: "السبت",
-      satTime: "09:00–13:00",
+      satTime: "09:00 – 13:00",
       sun: "الأحد",
       sunTime: "مغلق",
-      disclaimer: "مواعيد العمل مستخرجة من أدلة عامة ويجب التعامل معها كمعلومات تتطلب التأكيد المباشر مع العيادة."
+      disclaimer: "مواعيد استرشادية من الأدلة العامة — تتطلب التأكيد المباشر مع العيادة."
     },
     contact: {
       tag: "التواصل والعنوان",
-      title: "معلومات التواصل والعيادة",
-      subtitle: "معلومات الاتصال المعتمدة لطلب المواعيد والاستفسارات.",
-      mainPhone: "الهاتف الرئيسي",
-      mainSub: "هاتف ثابت",
-      mainNum: "+212 522 50 33 15",
-      addPhone: "هاتف إضافي",
-      addSub: "هاتف محمول",
-      addNum: "+212 612 15 40 32",
-      city: "المدينة",
-      cityVal: "الدار البيضاء، المغرب",
+      title: "التواصل مع العيادة",
+      subtitle: "اتصل مباشرة بالعيادة للحصول على معلومات أو تنظيم موعد استشارتك.",
+      mainPhone: "هاتف العيادة",
+      mainSub: "الخط المباشر",
+      mainNum: "05 37 29 67 61",
+      intNum: "+212 537 29 67 61",
+      city: "المدينة والحي",
+      cityVal: "الرباط، المغرب (حي السهريج / يعقوب المنصور)",
       langSpoken: "اللغة المعروضة",
       langVal: "الفرنسية",
-      callButtonMain: "الاتصال بـ 15 33 50 522 0",
-      callButtonAdd: "الاتصال بـ 32 40 15 12 06"
+      callButtonMain: "الاتصال بالعيادة (61 67 29 37 05)",
+      callButtonInt: "الاتصال: 61 67 29 537 212+"
     },
     booking: {
       tag: "حجز موعد عبر الإنترنت",
       title: "طلب موعد طبي",
-      desc: "قم بتعبئة هذا النموذج لإعداد طلب الموعد، وسيقوم أمانة العيادة بالتواصل معك عبر الأرقام المعتمدة.",
+      desc: "قم بتعبئة هذا النموذج لإرسال طلب الموعد إلى أمانة العيادة.",
       nameLabel: "الاسم الكامل *",
       phoneLabel: "رقم الهاتف *",
       expertiseLabel: "سبب الاستشارة *",
@@ -435,348 +460,386 @@ export const translations = {
       dateLabel: "التاريخ المطلوب *",
       timeLabel: "التوقيت المفضل *",
       noteLabel: "ملاحظات إضافية (اختياري)",
-      submitButton: "إرسال طلب الموعد",
-      confirmNotice: "سيتم استخدام رقم هاتفك للتأكيد المباشر مع العيادة.",
-      modalTitle: "تم تسجيل طلب الموعد بنجاح",
-      modalDesc: "يرجى الاتصال المباشر بأحد أرقام العيادة المعتمدة لتأكيد الموعد النهائي:",
+      submitButton: "إرسال الطلب",
+      confirmNotice: "سيتم تحويل طلبك للتأكيد مع كتابة العيادة.",
+      modalTitle: "تم تسجيل الطلب بنجاح",
+      modalDesc: "يرجى الاتصال المباشر بالعيادة لتأكيد موعدك النهائي:",
       modalClose: "إغلاق"
     },
     cta: {
-      title: "احجز موعدك الطبي",
-      desc: "لطلب استشارة أو فحص شامل للقلب، يرجى الاتصال مباشرة بالعيادة.",
-      onlineBooking: "طلب موعد عبر الإنترنت",
-      callBtn: "الاتصال: 15 33 50 522 0"
+      title: "هل تحتاج إلى استشارة طبية؟",
+      desc: "اتصل مباشرة بالعيادة للحصول على معلومات أو تنظيم موعد استشارتك.",
+      onlineBooking: "طلب موعد طبي",
+      callBtn: "الاتصال بالعيادة: 61 67 29 37 05"
     },
-    onlinePresence: "لم يتم العثور على أي موقع إلكتروني شخصي رسمي في المصادر المستشارة. المعلومات تعتمد حصرياً على الأدلة الطبية والمنشورات الموثقة.",
+    onlinePresence: "المعلومات مستخرجة من الأدلة المهنية العامة.",
     reviews: {
-      tag: "آراء المرضى",
-      title: "ما يقوله مرضانا",
-      subtitle: "تقييمات حقيقية من Google Maps — د. عزيزة العارجي، أخصائية أمراض القلب بالدار البيضاء",
-      rating: "4,8",
-      total: "من أصل 55 تقييم",
+      tag: "تقييمات المرضى GOOGLE",
+      title: "ما يقوله المرضى",
+      subtitle: "تقييمات حقيقية من Google Maps — د. سناء بلعباس بالرباط",
+      rating: "4,7",
+      total: "من أصل 35 تقييم",
       source: "المصدر: Google Maps",
+      viewReviews: "عرض جميع التقييمات على Google Maps",
       items: [
         {
           id: 1,
-          name: "خديجة أزوقاغ",
-          rating: 5,
-          date: "منذ شهرين",
-          lang: "ar",
-          text: "طبيبة قلب ممتازة، محترفة جداً ومنتبهة. تأخذ وقتها في شرح كل نتيجة بوضوح ولطف. أنصح بها بشدة."
-        },
-        {
-          id: 2,
-          name: "رشيد العروسي",
-          rating: 5,
-          date: "منذ 3 أشهر",
-          lang: "ar",
-          text: "طبيبة كفؤة وجادة. فحص شامل وإيكو على الفور. العيادة نظيفة ومرتبة. راضٍ جداً."
-        },
-        {
-          id: 3,
-          name: "فاطمة ز.",
-          rating: 5,
-          date: "منذ شهر",
-          lang: "ar",
-          text: "طبيبة ممتازة وإنسانة رائعة. تأخذ وقتها في الشرح والاستماع. سعيدة جداً بالاستشارة وأنصح الجميع بزيارتها."
-        },
-        {
-          id: 4,
-          name: "محمد بن علي",
+          name: "blake Saad",
           rating: 5,
           date: "منذ 5 أشهر",
           lang: "ar",
-          text: "طبيبة قلب ممتازة، جادة ومنتبهة. أخذت وقتها في تحليل ملفي بشكل جيد. العيادة في موقع مناسب وسهلة الوصول."
+          text: "الدكتوره سناء من أطيب خلق الله ،جمعت بين الخبرة و الأخلاق كذلك الفتاة في الإستقبال فتاة طيبة و محترمة و متقنة لعملها جزاكم الله كل خير."
+        },
+        {
+          id: 2,
+          name: "mama Ana",
+          rating: 5,
+          date: "منذ شهرين",
+          lang: "fr",
+          text: "Dr je la recommande forcément toujours à l'écoute, patiente, compréhensive, respectueuse et souriante."
+        },
+        {
+          id: 3,
+          name: "Abd Elhak EL KEBBABY",
+          rating: 5,
+          date: "منذ سنة",
+          lang: "fr",
+          text: "Top professionnelle, je mets 5 pour la capacité d'écoute de Mme SANAA BELABBESS, le patient peut prendre tout le temps nécessaire pour décrire son état de santé."
+        },
+        {
+          id: 4,
+          name: "Hanane Lebbali",
+          rating: 5,
+          date: "منذ سنة",
+          lang: "fr",
+          text: "Médecin compétente, toujours à l'écoute, je la recommande vivement."
         },
         {
           id: 5,
-          name: "أمينة الحساني",
+          name: "sabrina sabri",
           rating: 5,
-          date: "منذ 4 أشهر",
-          lang: "ar",
-          text: "دكتورة محترفة جداً. الفحص كان دقيقاً والشرح مفصلاً. شكراً جزيلاً على حسن الاستقبال."
+          date: "منذ سنتين",
+          lang: "en",
+          text: "The best doctor for me, she listens to you and gives you solutions before the examination, and she is a non-materialistic person."
         },
         {
           id: 6,
-          name: "سمير قباج",
+          name: "imane essalami",
           rating: 5,
-          date: "منذ 6 أشهر",
+          date: "منذ سنة",
+          lang: "fr",
+          text: "Je la recommande. Très compétente et humaine."
+        },
+        {
+          id: 7,
+          name: "Mustapha benhsain",
+          rating: 5,
+          date: "منذ 3 سنوات",
+          lang: "fr",
+          text: "Super Docteur à l'écoute, prendre le temps d'examiner avec minutie."
+        },
+        {
+          id: 8,
+          name: "Mostafa Ouldkhyi",
+          rating: 5,
+          date: "منذ 3 سنوات",
           lang: "ar",
-          text: "استشارة عالية الجودة. الدكتورة العارجي محترفة جداً ومطمئنة ودقيقة في تشخيصها. أنصح بها دون تردد."
+          text: "لهلا يخطيك علينا ادكتورة"
         }
       ]
     },
     map: {
       tag: "الموقع على الخريطة",
-      title: "كيفية الوصول إلينا",
-      subtitle: "إقامة رياض القدس، الطابق الأول، تقاطع شارع القدس وشارع حيفا، الدار البيضاء",
+      title: "موقع العيادة بالرباط",
+      subtitle: "218 شارع محمد بن عبد الله، حي يعقوب المنصور / حي السهريج، الرباط",
       directions: "الحصول على الاتجاهات"
     },
     footer: {
       navHeader: "التنقل",
       contactHeader: "الاتصال",
       langHeader: "اللغات",
-      rights: "د. عزيزة العارجي — طبيبة أخصائية في أمراض القلب بالدار البيضاء. جميع الحقوق محفوظة.",
-      disclaimerNote: "معلومات مجمعة للأغراض الإعلامية وفقاً للبيانات العامة الموثوقة."
+      rights: "د. سناء بلعباس — طبيبة عامة بالرباط. جميع الحقوق محفوظة.",
+      disclaimerNote: "معلومات مجمعة للأغراض الإعلامية وفقاً للبيانات العامة المتاحة."
     }
   },
 
   en: {
     nav: {
       home: "Home",
-      about: "Profile & Academic Path",
-      services: "Medical Expertise",
-      contact: "Contact & Location",
-      booking: "Appointment Request",
-      callUs: "Call Clinic",
+      about: "About",
+      services: "Services",
+      cabinet: "Practice",
+      contact: "Contact",
+      booking: "Book Appointment",
+      callUs: "Call Practice",
       langSwitch: "Language",
     },
     hero: {
-      eyebrow: "CARDIOLOGY · CASABLANCA",
-      badge: "Cardiologist in Casablanca • Morocco",
-      title: "Dr. Aziza L'Aarje",
-      subtitle: "Cardiologist",
-      subHeading: "Cardiology & Cardiovascular Ultrasound",
-      desc: "Cardiovascular medical care built on attentive listening, precision, and verified clinical expertise.",
+      eyebrow: "GENERAL PRACTICE · RABAT",
+      badge: "General Practitioner in Rabat • Morocco",
+      title: "Dr Sanaa Belabbess",
+      subtitle: "General Practitioner",
+      subHeading: "Consultation, prevention & personalized medical follow-up",
+      desc: "Attentive, accessible, and personalized medical care in Rabat.",
       ctaBooking: "Book Appointment",
-      discoverProfile: "Discover profile",
-      ctaCall: "Call: +212 522 50 33 15",
-      altCall: "Alt line: +212 612 15 40 32",
+      discoverProfile: "Discover practice",
+      ctaCall: "Call: 05 37 29 67 61",
+      altCall: "+212 537 29 67 61",
     },
     intro: {
-      title: "Expertise Dedicated to Cardiovascular Health",
-      desc: "A rigorous medical approach for evaluation, ultrasound diagnosis, and ongoing cardiac care.",
-      cardioTitle: "Cardiology",
-      cardioDesc: "Specialized consultation, assessment, and ongoing follow-up for the cardiovascular system.",
-      echoCardioTitle: "Cardiac Ultrasound",
-      echoCardioDesc: "Ultrasound evaluation of cardiac chamber structures and valve function.",
-      echoVascTitle: "Vascular Ultrasound",
-      echoVascDesc: "Ultrasound examination and precise assessment of arterial and venous circulation.",
+      title: "Patient-centered general medicine",
+      desc: "Comprehensive care, attentive listening, and close medical follow-up for the whole family in Rabat.",
+      cardioTitle: "General Consultation",
+      cardioDesc: "Comprehensive clinical evaluation, accurate diagnosis, and personalized follow-up.",
+      echoCardioTitle: "Check-up & Prevention",
+      echoCardioDesc: "Routine health examinations, wellness evaluation, and preventive care.",
+      echoVascTitle: "Continuous Care",
+      echoVascDesc: "Attentive regular medical guidance to preserve long-term health.",
     },
     expertise: {
-      tag: "FIELDS OF EXPERTISE",
-      title: "Fields of Expertise",
-      subtitle: "Ultrasound diagnosis, evaluation, and specialized cardiology care in Casablanca.",
-      notice: "This presentation strictly corresponds to verified, documented medical expertise for Dr. Aziza L'Aarje.",
-      ctaTitle: "Need a Consultation or Check-up?",
-      ctaDesc: "For appointment requests or cardiovascular check-ups, contact the clinic directly.",
+      tag: "MEDICAL SERVICES",
+      title: "Medical Services",
+      subtitle: "General medicine consultations and follow-up care in Rabat.",
+      notice: "General medical services provided at the practice. For specific inquiries, please consult the secretariat.",
+      ctaTitle: "Need a consultation?",
+      ctaDesc: "Contact the practice directly to request information or schedule your consultation.",
       items: [
         {
-          id: "cardiologie",
-          title: "Cardiology",
-          desc: "Consultation, diagnosis, and management of heart and cardiovascular conditions.",
-          icon: "HeartPulse"
-        },
-        {
-          id: "echographie-cardiaque",
-          title: "Cardiac Ultrasound",
-          desc: "Ultrasound evaluation of cardiac chamber structures and valve function.",
-          icon: "Activity"
-        },
-        {
-          id: "echographie-vasculaire",
-          title: "Vascular Ultrasound",
-          desc: "Ultrasound assessment of arterial and venous blood circulation.",
+          id: "consultation-generale",
+          title: "General Medical Consultation",
+          desc: "Diagnosis, treatment of common conditions and comprehensive personalized patient management.",
           icon: "Stethoscope"
         },
         {
-          id: "evaluation-cardiovasculaire",
-          title: "Cardiovascular Evaluation",
-          desc: "Comprehensive heart health evaluation and overall cardiovascular risk assessment.",
-          icon: "ShieldCheck"
+          id: "suivi-grossesse",
+          title: "Pregnancy Follow-up",
+          desc: "Complete and attentive medical monitoring throughout pregnancy for mother and baby.",
+          icon: "Heart"
         },
         {
-          id: "suivi-cardiovasculaire",
-          title: "Cardiovascular Follow-up",
-          desc: "Continuous medical management and regular follow-up for cardiac patients.",
-          icon: "UserCheck"
+          id: "echographie",
+          title: "Ultrasound / Echography (Diploma)",
+          desc: "On-site ultrasound examinations with a specialized diploma in medical echography.",
+          icon: "Scan"
+        },
+        {
+          id: "nutrition",
+          title: "Nutrition & Dietetics (Diploma)",
+          desc: "Personalized nutritional advice and dietary follow-up with a diploma in nutrition.",
+          icon: "Apple"
+        },
+        {
+          id: "ecg",
+          title: "Electrocardiogram (ECG)",
+          desc: "On-site ECG for cardiac health assessment and detection of heart anomalies.",
+          icon: "Activity"
+        },
+        {
+          id: "aptitude-conduite",
+          title: "Driving Medical Fitness Assessment",
+          desc: "Accredited physician for official driving fitness medical examinations.",
+          icon: "Car"
         }
       ]
     },
     profile: {
-      tag: "BACKGROUND",
-      title: "Academic Background",
-      heading: "Medical Education Built Between Morocco and France",
-      subtitle: "Dr Aziza L'Aarje is a cardiologist practicing in Casablanca, Morocco. Graduate of the Faculty of Medicine and Pharmacy of Casablanca and holder of a diploma in Cardiac and Vascular Ultrasound from the University of Bordeaux, France, she also completed internship training at CHU Ibn Rochd in Casablanca and CHU Limoges in France.",
+      tag: "ABOUT THE PRACTICE",
+      title: "About",
+      heading: "Patient-centered general medicine",
+      subtitle: "Dr Sanaa Belabbess graduated from the Faculty of Medicine and Pharmacy of Casablanca. A general practitioner in Rabat, her practice is at 218 Av. Sidi Mohamed Ben Abdellah, Hay Sehrij, CYM. She delivers human, rigorous, and reassuring medical care.",
       bullets: [
         {
-          title: "Medical University Degree",
-          detail: "Graduate of the Faculty of Medicine and Pharmacy of Casablanca",
-          tag: "FMP Casablanca"
+          title: "Graduate – Faculty of Medicine, Casablanca",
+          detail: "Medical degree from the Faculty of Medicine and Pharmacy of Casablanca — proven academic and clinical skills.",
+          tag: "Education"
         },
         {
-          title: "Ultrasound Diploma",
-          detail: "Diploma in Cardiac and Vascular Ultrasound - University of Bordeaux, France",
-          tag: "University of Bordeaux"
+          title: "Pregnancy Follow-up & Ultrasound",
+          detail: "Full pregnancy medical monitoring and on-site ultrasounds with a specialized echography diploma.",
+          tag: "Specialties"
         },
         {
-          title: "Hospital Internship (Morocco)",
-          detail: "Former intern at CHU Ibn Rochd, Casablanca",
-          tag: "CHU Ibn Rochd"
-        },
-        {
-          title: "Hospital Internship (France)",
-          detail: "Former intern at CHU Limoges, France",
-          tag: "CHU Limoges"
-        },
-        {
-          title: "Hospital Practitioner",
-          detail: "Practitioner at Hôpital Universitaire Cheikh Khalifa Ben Zayed, Casablanca",
-          tag: "Cheikh Khalifa Hospital"
+          title: "Nutrition, ECG & Driving Medical",
+          detail: "Nutrition diploma, on-site ECG, and accredited medical examinations for driving fitness.",
+          tag: "Services"
         }
       ]
     },
     academic: {
-      title: "Scientific Research & Publications",
-      desc: "Dr Aziza L'Aarje is listed in scientific medical publications in cardiology associated with medical institutions in Casablanca, notably the Cardiology Center at CHU Ibn Rochd.",
-      note: "Scientific data documented in peer-reviewed medical publications."
+      title: "Education & Qualifications",
+      desc: "Graduate of the Faculty of Medicine and Pharmacy of Casablanca — general practitioner with additional diplomas in echography and nutrition.",
+      note: "Information sourced from the official practice business card."
     },
     patientJourney: {
-      title: "Attentive Care at Every Stage",
-      subtitle: "Each consultation is structured around a clear and respectful clinical protocol.",
-      step1Title: "Listening",
-      step1Desc: "Attentive listening and comprehensive review of symptoms and medical history.",
-      step2Title: "Evaluation",
-      step2Desc: "Comprehensive cardiovascular health and risk factor assessment.",
-      step3Title: "Examinations",
-      step3Desc: "Cardiac and vascular ultrasound examinations when indicated.",
-      step4Title: "Follow-up",
-      step4Desc: "Continuous and attentive medical follow-up suited to your needs."
+      title: "Your care journey at the practice",
+      subtitle: "A clear and simple approach from appointment to follow-up.",
+      step1Title: "Attentive Listening",
+      step1Desc: "Comprehensive review of your symptoms and health concerns during your visit.",
+      step2Title: "Examination & Diagnosis",
+      step2Desc: "Thorough clinical examination and tailored medical recommendations.",
+      step3Title: "Adapted Treatment",
+      step3Desc: "Clear medical prescriptions and recovery guidance.",
+      step4Title: "Ongoing Follow-up",
+      step4Desc: "Continuous care to preserve your health over time."
     },
     address: {
-      tag: "LOCATION",
+      tag: "LOCATION & PRACTICE",
       title: "The Practice",
-      subtitle: "Casablanca, Morocco",
-      dirPhonesTitle: "Public Phone Lines",
-      dirAddressesTitle: "Directory Listed Addresses",
-      primaryTitle: "Listed Address (Résidence Ryad Al Quds)",
-      primaryDetail: "Résidence Ryad Al Quds, 1st floor (elevator), Angle Boulevard Al Qods et Boulevard Haifa, Casablanca, Morocco",
-      secondaryTitle: "Associated Institution (Cheikh Khalifa Hospital)",
-      secondaryDetail: "Hôpital Universitaire Cheikh Khalifa, Boulevard Mohamed Taib Naciri, Hay Hassani, Casablanca, Morocco",
-      disclaimer: "Address details should be confirmed directly with the doctor prior to visiting."
+      subtitle: "Rabat, Morocco",
+      dirPhonesTitle: "Practice Phone",
+      dirAddressesTitle: "Practice Address",
+      primaryTitle: "Official Address",
+      primaryDetail: "218, Av. Sidi Mohamed Ben Abdellah, Hay Sehrij, CYM – Rabat",
+      secondaryTitle: "District",
+      secondaryDetail: "Hay Sehrij / CYM / Yacoub El Mansour, Rabat",
+      area: "Hay Sehrij / CYM / Yacoub El Mansour",
+      disclaimer: "Address sourced from the official practice business card."
     },
     hours: {
       tag: "OPENING HOURS",
       title: "Opening Hours",
-      monFri: "Monday to Friday",
-      monFriTime: "09:00–13:00 | 15:00–19:00",
+      mon: "Monday",
+      monTime: "09:00 – 16:30",
+      tue: "Tuesday",
+      tueTime: "09:00 – 17:00",
+      wed: "Wednesday",
+      wedTime: "09:00 – 17:00",
+      thu: "Thursday",
+      thuTime: "09:00 – 17:00",
+      fri: "Friday",
+      friTime: "09:00 – 17:00",
       sat: "Saturday",
-      satTime: "09:00–13:00",
+      satTime: "09:00 – 13:00",
       sun: "Sunday",
       sunTime: "Closed",
-      disclaimer: "Hours listed are sourced from public directories and should be confirmed directly with the clinic."
+      disclaimer: "Provisional schedule from public listings — subject to confirmation with practice."
     },
     contact: {
       tag: "CONTACT & LOCATION",
-      title: "Clinic Contact Information",
-      subtitle: "Find all verified contact numbers and location details.",
-      mainPhone: "Main Phone",
-      mainSub: "Landline",
-      mainNum: "+212 522 50 33 15",
-      addPhone: "Additional Phone",
-      addSub: "Mobile Line",
-      addNum: "+212 612 15 40 32",
-      city: "City",
-      cityVal: "Casablanca, Morocco",
+      title: "Contact the Practice",
+      subtitle: "Contact the practice directly to request information or arrange your appointment.",
+      mainPhone: "Practice Phone",
+      mainSub: "Direct Line",
+      mainNum: "05 37 29 67 61",
+      intNum: "+212 537 29 67 61",
+      city: "City & Area",
+      cityVal: "Rabat, Morocco (Hay Sahrij / CYM)",
       langSpoken: "Spoken Language",
       langVal: "French",
-      callButtonMain: "Call +212 522 50 33 15",
-      callButtonAdd: "Call +212 612 15 40 32"
+      callButtonMain: "Call Practice (05 37 29 67 61)",
+      callButtonInt: "Call: +212 537 29 67 61"
     },
     booking: {
-      tag: "ONLINE REQUEST",
+      tag: "BOOKING REQUEST",
       title: "Appointment Request",
-      desc: "Fill out this form to prepare your appointment request. The staff will reach out to you directly.",
+      desc: "Fill out this form to submit your appointment request to the practice secretariat.",
       nameLabel: "Full Name *",
       phoneLabel: "Phone Number *",
-      expertiseLabel: "Reason for Consultation *",
+      expertiseLabel: "Reason for Visit *",
       selectExpertise: "Select reason for visit",
       dateLabel: "Preferred Date *",
       timeLabel: "Preferred Time *",
       noteLabel: "Notes / Message (Optional)",
       submitButton: "Submit Request",
-      confirmNotice: "Your phone number will be used for direct verification with the clinic.",
-      modalTitle: "Appointment Request Saved",
-      modalDesc: "Please call the clinic directly to confirm your time slot:",
+      confirmNotice: "Your request will be sent for confirmation with the clinic staff.",
+      modalTitle: "Request Submitted",
+      modalDesc: "Please call the practice directly to confirm your time slot:",
       modalClose: "Close"
     },
     cta: {
-      title: "Book Your Appointment",
-      desc: "For consultation requests or cardiovascular check-ups, contact the clinic directly.",
-      onlineBooking: "Book Online",
-      callBtn: "Call: +212 522 50 33 15"
+      title: "Need a consultation?",
+      desc: "Contact the practice directly to request information or organize your visit.",
+      onlineBooking: "Book Appointment",
+      callBtn: "Call Practice: 05 37 29 67 61"
     },
-    onlinePresence: "No official personal website was identified in the sources consulted. Content on this site is strictly derived from verified public medical directories.",
+    onlinePresence: "Information derived from public professional directories.",
     reviews: {
-      tag: "PATIENT REVIEWS",
-      title: "What our patients say",
-      subtitle: "Verified Google Maps reviews — Dr. Aziza L'Aarje, Cardiologist in Casablanca",
-      rating: "4.8",
-      total: "from 55 reviews",
+      tag: "GOOGLE PATIENT REVIEWS",
+      title: "What Patients Say",
+      subtitle: "Authentic Google Maps reviews — Dr Sanaa Belabbess in Rabat",
+      rating: "4.7",
+      total: "from 35 reviews",
       source: "Source: Google Maps",
+      viewReviews: "View all reviews on Google Maps",
       items: [
         {
           id: 1,
-          name: "Khadija Azougagh",
+          name: "blake Saad",
           rating: 5,
-          date: "2 months ago",
-          lang: "fr",
-          text: "Excellent cardiologist, very professional and attentive. She takes the time to explain every result clearly and with kindness. Highly recommend."
+          date: "5 months ago",
+          lang: "ar",
+          text: "الدكتوره سناء من أطيب خلق الله ،جمعت بين الخبرة و الأخلاق كذلك الفتاة في الإستقبال فتاة طيبة و محترمة و متقنة لعملها جزاكم الله كل خير."
         },
         {
           id: 2,
-          name: "Rachid Laaroussi",
+          name: "mama Ana",
           rating: 5,
-          date: "3 months ago",
+          date: "2 months ago",
           lang: "fr",
-          text: "Very competent and serious doctor. Thorough consultation, ultrasound performed on-site. The practice is clean and well-kept. Very satisfied."
+          text: "Dr je la recommande forcément toujours à l'écoute, patiente, compréhensive, respectueuse et souriante."
         },
         {
           id: 3,
-          name: "Fatima Z.",
+          name: "Abd Elhak EL KEBBABY",
           rating: 5,
-          date: "1 month ago",
-          lang: "ar",
-          text: "طبيبة ممتازة وإنسانة رائعة. تأخذ وقتها في الشرح والاستماع. سعيدة جداً بالاستشارة وأنصح الجميع بزيارتها."
+          date: "1 year ago",
+          lang: "fr",
+          text: "Top professionnelle, je mets 5 pour la capacité d'écoute de Mme SANAA BELABBESS, le patient peut prendre tout le temps nécessaire pour décrire son état de santé."
         },
         {
           id: 4,
-          name: "Mohamed Benali",
+          name: "Hanane Lebbali",
           rating: 5,
-          date: "5 months ago",
+          date: "1 year ago",
           lang: "fr",
-          text: "Very good cardiologist, serious and attentive. She took time to carefully review my records. Well-located practice, easy to access."
+          text: "Médecin compétente, toujours à l'écoute, je la recommande vivement."
         },
         {
           id: 5,
-          name: "Amina El Hassani",
+          name: "sabrina sabri",
           rating: 5,
-          date: "4 months ago",
-          lang: "ar",
-          text: "دكتورة محترفة جداً. الفحص كان دقيقاً والشرح مفصلاً. شكراً جزيلاً على حسن الاستقبال."
+          date: "2 years ago",
+          lang: "en",
+          text: "The best doctor for me, she listens to you and gives you solutions before the examination, and she is a non-materialistic person."
         },
         {
           id: 6,
-          name: "Samir Qabbaj",
+          name: "imane essalami",
           rating: 5,
-          date: "6 months ago",
+          date: "1 year ago",
           lang: "fr",
-          text: "High-quality consultation. Dr. L'Aarje is very professional, reassuring, and precise in her diagnoses. I recommend without hesitation."
+          text: "Je la recommande. Très compétente et humaine."
+        },
+        {
+          id: 7,
+          name: "Mustapha benhsain",
+          rating: 5,
+          date: "3 years ago",
+          lang: "fr",
+          text: "Super Docteur à l'écoute, prendre le temps d'examiner avec minutie."
+        },
+        {
+          id: 8,
+          name: "Mostafa Ouldkhyi",
+          rating: 5,
+          date: "3 years ago",
+          lang: "ar",
+          text: "لهلا يخطيك علينا ادكتورة"
         }
       ]
     },
     map: {
       tag: "GOOGLE MAPS LOCATION",
-      title: "Find Us",
-      subtitle: "Résidence Ryad Al Quds, 1st floor, Angle Bd Al Qods & Bd Haifa, Casablanca",
+      title: "Find Us in Rabat",
+      subtitle: "218 Avenue Mohamed Ben Abdellah, Yacoub El Mansour / Hay Sahrij, Rabat",
       directions: "Get Directions"
     },
     footer: {
       navHeader: "Navigation",
       contactHeader: "Contact",
       langHeader: "Languages",
-      rights: "Dr. Aziza L'Aarje — Cardiologist in Casablanca. All rights reserved.",
-      disclaimerNote: "Information compiled for informational purposes based on verified public data."
+      rights: "Dr Sanaa Belabbess — General Practitioner in Rabat. All rights reserved.",
+      disclaimerNote: "Information compiled for informational purposes based on public data."
     }
   }
 };
@@ -800,4 +863,10 @@ export const LanguageProvider = ({ children }) => {
   );
 };
 
-export const useLanguage = () => useContext(LanguageContext);
+export const useLanguage = () => {
+  const context = useContext(LanguageContext);
+  if (!context) {
+    throw new Error('useLanguage must be used within a LanguageProvider');
+  }
+  return context;
+};
