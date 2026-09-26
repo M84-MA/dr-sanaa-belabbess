@@ -6,21 +6,27 @@ export const formatWhatsAppTextMessage = (booking) => {
   const time = booking?.appointmentTime || 'A convenir';
   const note = booking?.message ? `\n*Précisions:* ${booking.message}` : '';
 
-  return `*DEMANDE DE RENDEZ-VOUS CARDIO*
+  return `🏥 *DEMANDE DE RENDEZ-VOUS - CARDIOLOGIE*
 -----------------------------------
 *Dr. Aziza L'Aarje - Cardiologue*
-Casablanca, Maroc
+📍 Casablanca, Maroc
 
-*Nom du Patient:* ${name}
-*Téléphone:* ${phone}
-*Motif de Consultation:* ${service}
-*Date souhaitée:* ${date}
-*Heure souhaitée:* ${time}${note}
+👤 *Nom du Patient:* ${name}
+📞 *Téléphone:* ${phone}
+🫀 *Motif de Consultation:* ${service}
+📅 *Date souhaitée:* ${date}
+⏰ *Heure souhaitée:* ${time}${note}
 
 -----------------------------------
-Demande transmise pour confirmation par téléphone (+212 522 50 33 15 / +212 612 15 40 32).`;
+Demande de rendez-vous transmise depuis le site web. Merci de me confirmer le créneau.`;
 };
 
-export const sendWhatsAppTextMessage = (booking) => {
-  console.log('Demande de rendez-vous enregistrée:', booking);
+export const getWhatsAppUrl = (booking, phoneNumber = '212612154032') => {
+  const text = formatWhatsAppTextMessage(booking);
+  return `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`;
+};
+
+export const sendWhatsAppTextMessage = (booking, phoneNumber = '212612154032') => {
+  const url = getWhatsAppUrl(booking, phoneNumber);
+  window.open(url, '_blank');
 };
