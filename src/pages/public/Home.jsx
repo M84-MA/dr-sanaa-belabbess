@@ -645,6 +645,7 @@ const Home = () => {
             </div>
 
           </div>
+          </div>
         </div>
       </section>
 
@@ -678,7 +679,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
     </div>
   );
 };
